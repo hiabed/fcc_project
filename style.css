@@ -60,12 +60,9 @@ body {
 
 #features {
     display: flex;
-    flex-direction: column;
 }
 
-#grid {
-    display: flex;
-}
+
 
 #hero {
     display: flex;
@@ -77,13 +74,14 @@ body {
 
 
 
+/*embedded youtube video*/
 
 #video-container {
     position: relative;
     width: 50%;
     padding-bottom: 56.25%; 
     height: 0;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 10%;
   }
   
