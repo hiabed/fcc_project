@@ -58,9 +58,7 @@ body {
     margin: auto;
 }
 
-#features {
-    display: flex;
-}
+
 
 
 
@@ -71,6 +69,67 @@ body {
     margin-top: 20%;
 }
 
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50%;
+}
+
+.first-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    border: 2px solid gray;
+    width: 25%;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.second-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid gray;
+    width: 25%;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.third-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid gray;
+    width: 25%;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+button {
+    padding: 2% 10% 2% 10%;
+    font-size: 20px;
+    background-color: orange;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.header {
+    color: rgb(189, 102, 102);
+    font-size: 22px;
+    border: 5px solid gainsboro;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+}
+
+.price {
+    color: rgb(253, 146, 146);
+    text-align: center;
+
+}
 
 
 
@@ -78,8 +137,8 @@ body {
 
 #video-container {
     position: relative;
-    width: 50%;
-    padding-bottom: 56.25%; 
+    width: 60%;
+    padding-bottom: 76.25%; 
     height: 0;
     margin-left: 20%;
     margin-top: 10%;
