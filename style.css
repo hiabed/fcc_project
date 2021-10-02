@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 10px;
     min-height: 75px;
     padding: 0 20px;
@@ -41,11 +41,7 @@ li {
     width: 100%;
     height: 100%;
     max-width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 body {
@@ -53,20 +49,48 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
     width: 100%;
     margin: auto;
 }
 
+#features {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 
+#email {
+    background-color: rgb(231, 218, 218);
+    font-size: 15px;
+    width: 50%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+}
 
+#submit {
+    color: blue;
+    font-size: 15px;
+    background-color: orangered;
+    margin-bottom: 10%;
+    padding: 0.5% 2.5% 0.5% 2.5%;
+    font-size: large
+}
 
+.premium {
+    font-size: 20px;
+    color: indigo;
+}
 
 #hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin-top: 20%;
+    line-height: 300%;
+    text-align: center;
 }
 
 #pricing {
@@ -142,6 +166,8 @@ button {
     height: 0;
     margin-left: 20%;
     margin-top: 10%;
+    text-align: center;
+
   }
   
 #video-container #video{
@@ -152,3 +178,9 @@ button {
     height: 50%;
   }
   
+#footer {
+    background-color: gray;
+    color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: end;
+}
